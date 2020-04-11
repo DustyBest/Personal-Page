@@ -106,7 +106,7 @@ body{font-family: Muli;font-size: 16px;line-height: 1.8;font-weight: 400;font-st
 		
 	</head>
 
-<body class="page-template page-template-page-templates page-template-custom_home page-template-page-templatescustom_home-php page page-id-670 page-child parent-pageid-10 everest-forms-no-js tg-site-layout--right tg-container--wide has-page-header has-breadcrumbs elementor-default elementor-kit-564 elementor-page elementor-page-670">
+<body class="page-template page-template-page-templates page-template-custom_home page-template-page-templatescustom_home-php page page-id-670 page-child parent-pageid-10 everest-forms-no-js tg-site-layout--stretched tg-container--wide has-page-header has-breadcrumbs elementor-default elementor-kit-564 elementor-page elementor-page-670">
 
 
 <div id="page" class="site tg-site">
@@ -177,24 +177,13 @@ body{font-family: Muli;font-size: 16px;line-height: 1.8;font-weight: 400;font-st
 				<div class="elementor-element elementor-element-31bd27de elementor-column elementor-col-100 elementor-top-column" data-id="31bd27de" data-element_type="column">
 			<div class="elementor-column-wrap  elementor-element-populated">
 					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-1a574744 elementor-widget elementor-widget-heading" data-id="1a574744" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">AWS</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-66f395b elementor-widget elementor-widget-divider" data-id="66f395b" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
 				<div class="elementor-element elementor-element-87cc60d elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="87cc60d" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500,"direction":"ltr"}' data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper">
-				<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://dustybest.netlify.com/wp-content/uploads/2020/04/reko.png" alt="reko"></figure></div>			</div>
-					</div>
+				<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://dustybest.netlify.com/wp-content/uploads/2020/04/reko.png" alt="reko"></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://dustybest.netlify.com/wp-content/uploads/2020/04/imageapp.png" alt="imageapp"></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://dustybest.netlify.com/wp-content/uploads/2020/04/imagetable.png" alt="imagetable"></figure></div>			</div>
+												<div class="swiper-pagination"></div>
+													</div>
 				</div>
 				</div>
 						</div>
@@ -211,22 +200,17 @@ body{font-family: Muli;font-size: 16px;line-height: 1.8;font-weight: 400;font-st
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-4a7ecdbf elementor-widget elementor-widget-text-editor" data-id="4a7ecdbf" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus lorem, porttitor quis facilisis id, volutpat ac mauris. Mauris sed porttitor nunc, non efficitur ipsum. Curabitur porttitor lacus id risus viverra aliquam. Maecenas vitae nunc eget dolor faucibus auctor in sed turpis. Nulla nibh quam, sodales at orci sed, ullamcorper porttitor nibh. Aenean porta mi vitae nibh tristique molestie. Duis nec magna at ex placerat facilisis.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>I wanted to familiarize myself with Amazon’s cloud computing platform AWS, so I put together an image classification app that took advantage of several of their services.</p></div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-88d1e1d elementor-widget elementor-widget-text-editor" data-id="88d1e1d" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus lorem, porttitor quis facilisis id, volutpat ac mauris. Mauris sed porttitor nunc, non efficitur ipsum. Curabitur porttitor lacus id risus viverra aliquam. Maecenas vitae nunc eget dolor faucibus auctor in sed turpis. Nulla nibh quam, sodales at orci sed, ullamcorper porttitor nibh. Aenean porta mi vitae nibh tristique molestie. Duis nec magna at ex placerat facilisis.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>From a browser, users upload a .jpg image file, along with 3 tags. These tags are just objects that the user sees in the image. That info is sent to an S3 bucket (storage) which then triggers a Lambda function (serverless computing). The lambda hits the Rekognition API (image analysis) to detect labels in the image with a set degree of confidence. Finally, all the information collected is stored in a Dynamo (database) table. </p></div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-59863074 elementor-widget elementor-widget-text-editor" data-id="59863074" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus lorem, porttitor quis facilisis id, volutpat ac mauris. Mauris sed porttitor nunc, non efficitur ipsum. Curabitur porttitor lacus id risus viverra aliquam. Maecenas vitae nunc eget dolor faucibus auctor in sed turpis. Nulla nibh quam, sodales at orci sed, ullamcorper porttitor nibh. Aenean porta mi vitae nibh tristique molestie. Duis nec magna at ex placerat facilisis.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-78f70b65 elementor-widget elementor-widget-text-editor" data-id="78f70b65" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus lorem, porttitor quis facilisis id, volutpat ac mauris. Mauris sed porttitor nunc, non efficitur ipsum. Curabitur porttitor lacus id risus viverra aliquam. Maecenas vitae nunc eget dolor faucibus auctor in sed turpis. Nulla nibh quam, sodales at orci sed, ullamcorper porttitor nibh. Aenean porta mi vitae nibh tristique molestie. Duis nec magna at ex placerat facilisis.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>The project is hosted on GitHub with directions for deploying in the readme.</p></div>
 				</div>
 				</div>
 						</div>
@@ -249,16 +233,13 @@ body{font-family: Muli;font-size: 16px;line-height: 1.8;font-weight: 400;font-st
 				<div class="elementor-widget-container">
 					<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text"><strong>CLIENT</strong>:  ThemeGrill Pvt.Ltd</span>
+										<span class="elementor-icon-list-text"><strong>CLIENT</strong>:  Personal Project</span>
 									</li>
 								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text"> <strong>DATE RELEASED</strong>:  Jan 15 2019</span>
+										<span class="elementor-icon-list-text"><strong>DATE RELEASED</strong>:  Aug 26 2019</span>
 									</li>
 								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text"><strong>CATEGORIES</strong>:  Website design & Development</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text"><strong>TAGS</strong>:  Web, Graphics</span>
+										<span class="elementor-icon-list-text"><strong>CATEGORIES</strong>:  AWS</span>
 									</li>
 						</ul>
 				</div>
@@ -266,7 +247,7 @@ body{font-family: Muli;font-size: 16px;line-height: 1.8;font-weight: 400;font-st
 				<div class="elementor-element elementor-element-3fc349a9 elementor-widget elementor-widget-button" data-id="3fc349a9" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="https://github.com/DustyBest/AWS-Image-Classifier" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">VIEW PROJECT</span>
 		</span>
