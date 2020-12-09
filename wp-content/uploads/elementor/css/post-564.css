@@ -1,0 +1,6 @@
+.elementor-kit-564 {--e-global-color-primary: #20c997;--e-global-color-secondary: #868e96;--e-global-color-text: #868e96;--e-global-color-accent: #868e96;--e-global-color-3ae63929: #6ec1e4;--e-global-color-37aef67c: #54595f;--e-global-color-25108885: #7a7a7a;--e-global-color-745b68ea: #61ce70;--e-global-color-7ee0d903: #4054b2;--e-global-color-67d0adfb: #23a455;--e-global-color-8953d34: #000;--e-global-color-6612481c: #fff;--e-global-typography-primary-font-family: "Rasa";--e-global-typography-primary-font-weight: Bold;--e-global-typography-secondary-font-family: "Roboto Slab";--e-global-typography-secondary-font-weight: 600;--e-global-typography-text-font-family: "Muli";--e-global-typography-text-font-weight: 400;--e-global-typography-accent-font-family: "Muli";--e-global-typography-accent-font-weight: 400;}
+.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1140px;}
+ {}
+h1.entry-title {display: var(--page-title-display);}
+@media (max-width:1024px) {.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1025px;}}
+@media (max-width:767px) {.elementor-section.elementor-section-boxed > .elementor-container {max-width: 768px;}}

@@ -22,7 +22,7 @@ body:not(.rtl) .elementor-690 .elementor-element.elementor-element-24746caa .ele
 .elementor-690 .elementor-element.elementor-element-24746caa .elementor-icon-list-icon i {font-size: 14px;}
 .elementor-690 .elementor-element.elementor-element-24746caa .elementor-icon-list-icon svg {width: 14px;}
 .elementor-690 .elementor-element.elementor-element-24746caa .elementor-icon-list-text {color: #fff;}
-.elementor-690 .elementor-element.elementor-element-24746caa .elementor-icon-list-item {font-size: 14px;}
+.elementor-690 .elementor-element.elementor-element-24746caa .elementor-icon-list-item, .elementor-690 .elementor-element.elementor-element-24746caa .elementor-icon-list-item a {font-size: 14px;}
 .elementor-690 .elementor-element.elementor-element-24746caa > .elementor-widget-container {margin: 0px 0px 25px 0px;}
 .elementor-690 .elementor-element.elementor-element-194cda61 .elementor-button {background-color: rgba(255,255,255,0);border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 0px 0px 0px 0px;}
 .elementor-690 .elementor-element.elementor-element-194cda61 .elementor-button:hover, .elementor-690 .elementor-element.elementor-element-194cda61 .elementor-button:focus {color: #20c997;background-color: #fff;}

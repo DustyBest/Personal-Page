@@ -3,7 +3,7 @@
 .elementor-274 .elementor-element.elementor-element-53cc56f > .elementor-element-populated {padding: 0px 0px 0px 0px;}
 .elementor-274 .elementor-element.elementor-element-821fdb6 {text-align: center;}
 .elementor-274 .elementor-element.elementor-element-821fdb6 .elementor-heading-title {color: #212529;font-size: 34px;}
-.elementor-274 .elementor-element.elementor-element-273823e {--divider-border-style: solid;--divider-border-color: #000;--divider-border-width: 1px;}
+.elementor-274 .elementor-element.elementor-element-273823e {--divider-border-style: solid;--divider-color: #000;--divider-border-width: 1px;}
 .elementor-274 .elementor-element.elementor-element-273823e .elementor-divider-separator {width: 80px;margin: 0 auto;margin-center: 0;}
 .elementor-274 .elementor-element.elementor-element-273823e .elementor-divider {text-align: center;padding-top: 10px;padding-bottom: 10px;}
 .elementor-274 .elementor-element.elementor-element-273823e > .elementor-widget-container {margin: 0px 0px 50px 0px;}
@@ -28,7 +28,7 @@ body:not(.rtl) .elementor-274 .elementor-element.elementor-element-86d1781 .elem
 .elementor-274 .elementor-element.elementor-element-86d1781 .elementor-icon-list-icon i {font-size: 14px;}
 .elementor-274 .elementor-element.elementor-element-86d1781 .elementor-icon-list-icon svg {width: 14px;}
 .elementor-274 .elementor-element.elementor-element-86d1781 .elementor-icon-list-text {color: #fff;}
-.elementor-274 .elementor-element.elementor-element-86d1781 .elementor-icon-list-item {font-size: 14px;}
+.elementor-274 .elementor-element.elementor-element-86d1781 .elementor-icon-list-item, .elementor-274 .elementor-element.elementor-element-86d1781 .elementor-icon-list-item a {font-size: 14px;}
 .elementor-274 .elementor-element.elementor-element-86d1781 > .elementor-widget-container {margin: 0px 0px 25px 0px;}
 .elementor-274 .elementor-element.elementor-element-b47125e .elementor-button {background-color: rgba(255,255,255,0);border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 0px 0px 0px 0px;}
 .elementor-274 .elementor-element.elementor-element-b47125e .elementor-button:hover, .elementor-274 .elementor-element.elementor-element-b47125e .elementor-button:focus {color: #20c997;background-color: #fff;}
